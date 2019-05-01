@@ -80,3 +80,5 @@ model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=
 
 # train the model:
 model.fit(training_audio, training_labels, epochs=5)
+
+# this is the 2nd commit
